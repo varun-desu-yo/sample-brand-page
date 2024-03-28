@@ -1,0 +1,44 @@
+.logo{
+    cursor: pointer;
+}
+
+
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: rgb(6, 144, 198);
+    height: 32px;
+    color: white;
+    font-family: 500;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:24px;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-btn:hover{
+    cursor: pointer;
+    transition-duration: 250ms;
+    color: rgb(6, 144, 198);
+    border: rgb(6, 144, 198) solid 1px;
+    background:#fff;
+}
